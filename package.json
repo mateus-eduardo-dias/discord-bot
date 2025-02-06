@@ -4,7 +4,8 @@
   "description": "A discord bot",
   "main": "index.js",
   "scripts": {
-    "test": "node index"
+    "start:dev": "node .",
+    "update": "node deploy-commands"
   },
   "author": "Mateus",
   "license": "ISC",
