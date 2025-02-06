@@ -1,10 +1,10 @@
 const { Client, Collection, GatewayIntentBits } = require("discord.js");
 const fs = require("fs")
 const path = require("path")
-const dotenv = require("dotenv");
+// const dotenv = require("dotenv");
 
 console.log("Starting initialization")
-dotenv.config();
+// dotenv.config();
 
 console.log("Creating client")
 const client = new Client({intents: [GatewayIntentBits.Guilds]})
