@@ -7,16 +7,12 @@ console.log("Starting initialization")
 dotenv.config();
 
 console.log("Creating client")
-try {
-    const client = new Client({intents: [GatewayIntentBits.Guilds]})
-} catch {
-    console.log("Error: impossible to create client")
-}
+const client = new Client({intents: [GatewayIntentBits.Guilds]})
 
 try {
     client.commands = new Collection()
-} catch {
-    console.log("Error: impossible to create collection")
+} catch (err) {
+    console.log(err)
 }
 
 
