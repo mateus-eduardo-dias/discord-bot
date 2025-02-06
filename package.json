@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start:dev": "node .",
-    "update": "node deploy-commands"
+    "update": "node deploy-commands.js"
   },
   "author": "Mateus",
   "license": "ISC",
