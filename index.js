@@ -67,11 +67,11 @@ try {
     console.log("Error: could not login")
 }
 
-app.get('/status', (req, res) => {
+app.get('/', (req, res) => {
     const resposta = {
         'status':client.isReady()
     }
-    res.end(resposta)
+    res.end(JSON.stringify(resposta))
 })
 
 app.listen(PORT, () => console.log(`Server on at port ${PORT}`))
