@@ -1,10 +1,14 @@
 const { Client, Collection, GatewayIntentBits } = require("discord.js");
+const express = require("express")
 const fs = require("fs")
 const path = require("path")
 const dotenv = require("dotenv");
 
 console.log("Starting initialization")
 dotenv.config();
+
+const app = express()
+const PORT = 8080
 
 console.log("Creating client")
 const client = new Client({intents: [GatewayIntentBits.Guilds]})
@@ -62,3 +66,12 @@ try {
 } catch {
     console.log("Error: could not login")
 }
+
+app.get('/status', (req, res) => {
+    const resposta = {
+        'status':client.isReady()
+    }
+    res.end(resposta)
+})
+
+app.listen(PORT, () => console.log(`Server on at port ${PORT}`))
