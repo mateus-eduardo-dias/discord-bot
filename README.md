@@ -1,5 +1,15 @@
 # Discord bot
 
+![NPM Version](https://img.shields.io/npm/v/discord.js?style=for-the-badge&label=discord.js)
+
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fproposed-aeriel-killedplayer77org-4672ad43.koyeb.app%2F&up_message=on&up_color=green&down_message=off&down_color=red&style=for-the-badge&logo=koyeb)
+![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fproposed-aeriel-killedplayer77org-4672ad43.koyeb.app%2F&query=%24.status&style=for-the-badge&logo=koyeb&label=working%3F)
+
+![GitHub Repo stars](https://img.shields.io/github/stars/mateus-eduardo-dias/discord-bot?style=for-the-badge&logo=github)
+![GitHub watchers](https://img.shields.io/github/watchers/mateus-eduardo-dias/discord-bot?style=for-the-badge&logo=github)
+![GitHub forks](https://img.shields.io/github/forks/mateus-eduardo-dias/discord-bot?style=for-the-badge&logo=github)
+![GitHub License](https://img.shields.io/github/license/mateus-eduardo-dias/discord-bot?style=for-the-badge&logo=github&color=red)
+
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
@@ -13,6 +23,8 @@
 - [Usage](#usage)
     - [Update slash commands](#update-slash)
     - [Running the application](#running)
+    - [Endpoints](#endpoints)
+        - [GET /](#endpoint-base)
 - [Contribute](#contribute)
     - [Creating a command](#creating-command)
 - [License](#license)
@@ -84,6 +96,34 @@ You can find the server id right clicking at the server logo and then "Copy serv
 <h3 id="running">Running the Application</h3>
 
 After installing, you can run `node run start:dev` or `node .` to make the Application work
+
+<h3 id="endpoints">Endpoints</h3>
+
+Since it's a discord bot, endpoints are not the main focus of this project
+
+**Base URL**: <kbd>https://proposed-aeriel-killedplayer77org-4672ad43.koyeb.app/</kbd>
+
+**Note**: That's the URL for my bot, if you are going to make your own bot using this code, you should deploy it later in a service (in this project i used [Koyeb](https://www.koyeb.com/))
+
+|Endpoint|Action|
+|--------|------|
+|<kbd>GET /</kbd>|Show the status of the bot|
+
+<h4 id="endpoint-base">GET /</h4>
+
+**URL**: <kbd>https://proposed-aeriel-killedplayer77org-4672ad43.koyeb.app/</kbd>
+
+**Note**: That's the URL for my bot, if you are going to make your own bot using this code, you should deploy it later in a service (in this project i used [Koyeb](https://www.koyeb.com/))
+
+**Description**: This endpoint returns the status of the application
+
+**RESPONSE**
+```json
+{
+    "status": true
+}
+```
+If status is false, there's some problem with the bot and you should verify
 
 <h2 id="contribute">Contribute</h2>
 
