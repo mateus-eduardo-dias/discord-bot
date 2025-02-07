@@ -34,6 +34,8 @@ CLIENT_ID="Your client id goes here"
 If you forgot your Token, you can reset at the "Bot" session of your application
 You can find the client id at the "General Information" session, called "APPLICATION ID"
 
+## Usage
+
 ### Updating slash commands
 
 After you configure your Application, you can run `node run update` or `node deploy-commands.js` to update all the slash commands in all servers
