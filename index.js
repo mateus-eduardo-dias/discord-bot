@@ -1,10 +1,14 @@
 const { Client, Collection, GatewayIntentBits } = require("discord.js");
+const express = require("express")
 const fs = require("fs")
 const path = require("path")
-// const dotenv = require("dotenv");
+const dotenv = require("dotenv");
 
 console.log("Starting initialization")
-// dotenv.config();
+dotenv.config();
+
+const app = express()
+const PORT = 8080
 
 console.log("Creating client")
 const client = new Client({intents: [GatewayIntentBits.Guilds]})
@@ -60,5 +64,7 @@ console.log("Initializing...")
 try {
     client.login(process.env.BOT_TOKEN)
 } catch {
-    console.log("Error: problem at login")
+    console.log("Error: could not login")
 }
+
+app.listen(PORT, () => console.log(`Server on at ${PORT}`))
