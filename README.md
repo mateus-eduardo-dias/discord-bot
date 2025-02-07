@@ -67,3 +67,12 @@ You can find the server id right clicking at the server logo and then "Copy serv
 ### Running the Application
 
 After installing, you can run `node run start:dev` or `node .` to make the Application work
+
+## Contribute
+
+### Creating a command
+
+
+## License
+
+This project uses [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0), which can be seen at the [LICENSE file](https://github.com/mateus-eduardo-dias/discord-bot/blob/main/LICENSE)
