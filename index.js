@@ -71,6 +71,7 @@ app.get('/', (req, res) => {
     const resposta = {
         'status':client.isReady()
     }
+    res.contentType('application/json')
     res.end(JSON.stringify(resposta))
 })
 
