@@ -7,8 +7,8 @@
     "start:dev": "node .",
     "update": "node deploy-commands.js"
   },
-  "author": "Mateus",
-  "license": "ISC",
+  "author": "Mateus Eduardo",
+  "license": "Apache-2.0",
   "dependencies": {
     "discord.js": "^14.17.3",
     "dotenv": "^16.4.7",
