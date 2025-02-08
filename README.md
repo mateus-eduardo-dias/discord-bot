@@ -30,12 +30,14 @@
 - [License](#license)
 
 <h2 id="about">About this project</h2>
+
 This is a Discord bot made with [discord.js](https://discord.js.org/) module for [Node.js](https://nodejs.org)
 It's a personal project but you can contribute to this project reporting bugs or making pull requests to this project if you want
 
 <h2 id="install-guide">Installation guide</h2>
 
 <h3 id="preq">Prerequisites</h3>
+
 The DiscordJs module recommends the newest version of NodeJs to keep everything working fine, you can download it at their [official website](https://nodejs.org)
 
 You will also need [Git](https://git-scm.com/downloads) (if you dont have) installed
@@ -43,6 +45,7 @@ You will also need [Git](https://git-scm.com/downloads) (if you dont have) insta
 And last, you will need a Discord Application, which can be made at the [Discord Developer Portal](https://discord.com/developers/applications)
 
 <h3 id="installation">Installation</h3>
+
 Firstly, you need to clone this project to your projects folder using the following command
 ```bash
 git clone https://github.com/mateus-eduardo-dias/discord-bot
@@ -126,7 +129,9 @@ Since it's a discord bot, endpoints are not the main focus of this project
 If status is false, there's some problem with the bot and you should verify
 
 <h2 id="contribute">Contribute</h2>
+
 Here is how you can contribute to this project
+
 <h3 id="creating-command">Creating a command</h3>
 
 If you want to create a command for the bot, you need to follow these steps:
