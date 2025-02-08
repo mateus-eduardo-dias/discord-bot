@@ -126,8 +126,26 @@ Since it's a discord bot, endpoints are not the main focus of this project
 If status is false, there's some problem with the bot and you should verify
 
 <h2 id="contribute">Contribute</h2>
-
+Here is how you can contribute to this project
 <h3 id="creating-command">Creating a command</h3>
+
+If you want to create a command for the bot, you need to follow these steps:
+1. Create a `.js` file at `commands/utility folder`
+2. You should follow this standard:
+```js
+const { SlashCommandBuilder } = require("discord.js");
+
+module.exports = {
+    data: new SlashCommandBuilder()
+        .setName("<command-name>")
+        .setDescription("<command-description>"),
+    async execute (interaction) {
+        // what it should do
+    }
+}
+```
+Replace these `<>` with what is required and then set what this command should do at the `execute` function
+You can see more about commands at the Discord.js docs
 
 
 <h2 id="license">License</h2>
