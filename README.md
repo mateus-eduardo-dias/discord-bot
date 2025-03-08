@@ -2,9 +2,6 @@
 
 ![NPM Version](https://img.shields.io/npm/v/discord.js?style=for-the-badge&label=discord.js)
 
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fproposed-aeriel-killedplayer77org-4672ad43.koyeb.app%2F&up_message=on&up_color=green&down_message=off&down_color=red&style=for-the-badge&logo=koyeb)
-![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fproposed-aeriel-killedplayer77org-4672ad43.koyeb.app%2F&query=%24.status&style=for-the-badge&logo=koyeb&label=working%3F)
-
 ![GitHub Repo stars](https://img.shields.io/github/stars/mateus-eduardo-dias/discord-bot?style=for-the-badge&logo=github)
 ![GitHub watchers](https://img.shields.io/github/watchers/mateus-eduardo-dias/discord-bot?style=for-the-badge&logo=github)
 ![GitHub forks](https://img.shields.io/github/forks/mateus-eduardo-dias/discord-bot?style=for-the-badge&logo=github)
